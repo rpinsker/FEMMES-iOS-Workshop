@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  FEMMESWorkshop
 //
 //  Created by Rachel Pinsker on 4/14/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : UIViewController
 
 @end
-

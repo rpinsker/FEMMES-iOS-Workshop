@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		CCF35B551ADDF2F800EA7B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF35B541ADDF2F800EA7B3B /* main.m */; };
 		CCF35B581ADDF2F800EA7B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF35B571ADDF2F800EA7B3B /* AppDelegate.m */; };
-		CCF35B5B1ADDF2F800EA7B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF35B5A1ADDF2F800EA7B3B /* ViewController.m */; };
-		CCF35B5E1ADDF2F800EA7B3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF35B5C1ADDF2F800EA7B3B /* Main.storyboard */; };
 		CCF35B601ADDF2F800EA7B3B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF35B5F1ADDF2F800EA7B3B /* Images.xcassets */; };
-		CCF35B631ADDF2F800EA7B3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF35B611ADDF2F800EA7B3B /* LaunchScreen.xib */; };
 		CCF35B6F1ADDF2F800EA7B3B /* FEMMESWorkshopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF35B6E1ADDF2F800EA7B3B /* FEMMESWorkshopTests.m */; };
+		CCF35B7D1ADDFB3500EA7B3B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF35B7C1ADDFB3500EA7B3B /* MainViewController.m */; };
+		CCF35B7F1ADDFBC000EA7B3B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF35B7E1ADDFBC000EA7B3B /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		CCF35B541ADDF2F800EA7B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CCF35B561ADDF2F800EA7B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCF35B571ADDF2F800EA7B3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CCF35B591ADDF2F800EA7B3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CCF35B5A1ADDF2F800EA7B3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CCF35B5D1ADDF2F800EA7B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CCF35B5F1ADDF2F800EA7B3B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		CCF35B621ADDF2F800EA7B3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		CCF35B681ADDF2F800EA7B3B /* FEMMESWorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FEMMESWorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF35B6D1ADDF2F800EA7B3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CCF35B6E1ADDF2F800EA7B3B /* FEMMESWorkshopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FEMMESWorkshopTests.m; sourceTree = "<group>"; };
+		CCF35B7B1ADDFB3500EA7B3B /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		CCF35B7C1ADDFB3500EA7B3B /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		CCF35B7E1ADDFBC000EA7B3B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = ../../../../../.Trash/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +81,10 @@
 			children = (
 				CCF35B561ADDF2F800EA7B3B /* AppDelegate.h */,
 				CCF35B571ADDF2F800EA7B3B /* AppDelegate.m */,
-				CCF35B591ADDF2F800EA7B3B /* ViewController.h */,
-				CCF35B5A1ADDF2F800EA7B3B /* ViewController.m */,
-				CCF35B5C1ADDF2F800EA7B3B /* Main.storyboard */,
+				CCF35B7B1ADDFB3500EA7B3B /* MainViewController.h */,
+				CCF35B7C1ADDFB3500EA7B3B /* MainViewController.m */,
+				CCF35B7E1ADDFBC000EA7B3B /* LaunchScreen.xib */,
 				CCF35B5F1ADDF2F800EA7B3B /* Images.xcassets */,
-				CCF35B611ADDF2F800EA7B3B /* LaunchScreen.xib */,
 				CCF35B521ADDF2F800EA7B3B /* Supporting Files */,
 			);
 			path = FEMMESWorkshop;
@@ -199,8 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF35B5E1ADDF2F800EA7B3B /* Main.storyboard in Resources */,
-				CCF35B631ADDF2F800EA7B3B /* LaunchScreen.xib in Resources */,
+				CCF35B7F1ADDFBC000EA7B3B /* LaunchScreen.xib in Resources */,
 				CCF35B601ADDF2F800EA7B3B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +215,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CCF35B5B1ADDF2F800EA7B3B /* ViewController.m in Sources */,
 				CCF35B581ADDF2F800EA7B3B /* AppDelegate.m in Sources */,
 				CCF35B551ADDF2F800EA7B3B /* main.m in Sources */,
+				CCF35B7D1ADDFB3500EA7B3B /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,25 +238,6 @@
 			targetProxy = CCF35B691ADDF2F800EA7B3B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		CCF35B5C1ADDF2F800EA7B3B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCF35B5D1ADDF2F800EA7B3B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CCF35B611ADDF2F800EA7B3B /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CCF35B621ADDF2F800EA7B3B /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CCF35B701ADDF2F800EA7B3B /* Debug */ = {
